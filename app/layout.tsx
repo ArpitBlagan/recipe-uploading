@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { authOptions } from "@/lib/auth";
 import { getServerSession } from "next-auth";
@@ -33,7 +32,7 @@ export default async function RootLayout({
         )}
       >
         <Provider session={session}>
-          <ThemeProvider attribute="class" defaultTheme="system">
+          <ThemeProvider attribute="class" defaultTheme="light">
             <Toaster />
             <Navbar />
             {children}
