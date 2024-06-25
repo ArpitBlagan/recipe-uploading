@@ -23,9 +23,9 @@ const page = async () => {
     <div className="min-h-[80dvh]">
       <div className="grid md:grid-cols-2 gap-3">
         {res.message &&
-          res?.recipes.map((ele) => {
+          res?.recipes.map((ele, index) => {
             return (
-              <Card className="py-2 px-3 flex flex-col gap-3">
+              <Card className="py-2 px-3 flex flex-col gap-3" key={index}>
                 <CardTitle className=" flex items-center justify-center">
                   <div className="w-[300px] h-[300px]">
                     <Image

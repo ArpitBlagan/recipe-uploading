@@ -47,7 +47,7 @@ export const SigninForm = () => {
       className="form flex flex-col gap-3 md:w-1/2  w-full py-4 px-6 "
     >
       <p className="text-center">
-        Don't have an account?{"   "}
+        Donot have an account?{"   "}
         <Link href="/signup" className="underline">
           SignUp
         </Link>
