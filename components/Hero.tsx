@@ -36,6 +36,12 @@ const Hero = () => {
           </Link>
         </div>
       </div>
+      <div className="flex f items-center justify-center h-[60dvh]">
+        <iframe
+          src="https://www.loom.com/embed/62d0f97ea74f486582726ebea827e86c?sid=2f3442c3-09cf-4130-8d85-b0a1e899f052"
+          className="w-[700px] h-[400px] rounded-md"
+        ></iframe>
+      </div>
       <div className="flex items-center justify-center min-h-[40dvh]">
         <Accordion type="single" collapsible className="w-8/12 ">
           <AccordionItem value="item-1">
